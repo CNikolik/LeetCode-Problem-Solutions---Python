@@ -20,8 +20,7 @@ class Solution(object):
                 while letter in substring:
                     substring = substring[1:]
                 substring += letter
-                
-                
+               
             if len(substring) > len(longest):
                 longest = substring
                 
